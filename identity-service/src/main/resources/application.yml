@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: identity-service
+  config:
+    import: optional:configserver:http://localhost:8888/
+
+jwt-scecret: chukibimatdetaorachuoitokenphaidudaineukhongsebinemloi
+jwt-expiration: 3600000
+jwt-refresh-expiration: 2592000000
